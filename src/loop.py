@@ -31,5 +31,3 @@ def loop(fasta_path , k_mer , sample_per_sequence, num_iterations):
         new_motif = seq.generate_kmer(pwm)
         update_k_mers(k_mers_motif, indice, new_motif)
     return matrice.PlotMatrix(pwm)
-
-motifffff = loop('/Users/mike/Desktop/machine learning/GIT/data/motifk20.fasta' , 20 , 1, 1000)
